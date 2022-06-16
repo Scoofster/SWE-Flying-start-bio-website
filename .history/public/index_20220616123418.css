@@ -1,0 +1,17 @@
+.filter {
+
+}
+
+#hero {
+    display: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#hero_overlay {
+    display: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+
+}

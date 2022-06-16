@@ -1,0 +1,13 @@
+.filter {
+
+}
+
+#hero {
+    height: 100%;
+}
+
+#hero_overlay {
+    display: fixed;
+    background-color: blue;
+
+}

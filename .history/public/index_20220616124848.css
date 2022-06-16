@@ -1,0 +1,30 @@
+
+html,body{
+    margin:0;
+    }
+
+
+
+#hero {
+    margin: 0%;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#hero_overlay {
+    grid-area: 1 /1 / span 3 / span 3;
+    opacity: 30%;
+    background-color: blue;
+
+}
+
+#banner_photo {
+grid-area: 1 /1 / span 3 / span 3;
+  background-image: url(./imgs/laptop.jpg);
+  grid-area: 1 /1 / span 3 / span 3;
+  
+  background-position: center;
+}
