@@ -1,14 +1,13 @@
 {
   "name": "swe-portfolio-starter",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
+  "description": "A portfolio starter for your flying start",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server --host='localhost' --port='3000'"
+    "dev": "live-server --host='localhost' --port='3000'"
   },
-  "author": "J McNamara",
+  "author": "multiverse",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.2"
