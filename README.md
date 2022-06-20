@@ -17,13 +17,15 @@ We want to get you set up for success. This means getting a few things installed
 
 ## Getting started
 
- 1. With the above installed, make sure you have and are signed in to a GitHub account. At the top right of this page, click **Fork** to create a fork. Doing this will give you your very own copy of this repo!
+ 1. With the above installed, **make sure you have and are signed in to a GitHub account**. At the top right of this page, click **Fork** to create a fork. Doing this will give you your very own copy of this repo!
+ ![alt text](Readme_Imgs/fork-github.gif)
 
- 1. When you are on the homepage of your fork, copy the url.     ![alt text](Readme_Imgs/fork-github.gif)
+ 1. When you are on the homepage of your fork, copy the url.     
 
  1. Open VS Code and choose *Clone Git Repository*. Paste in the url to copy the code down to your machine.
+ ![alt text](Readme_Imgs/vscode-clone.gif)
 
- 1. Open a terminal, `cd` into your project, and type `npm run start` to start the live server.
+ 1. Open a terminal (ctrl + ' will open a terminal screen in vscode), `cd` into your project, and type `npm run start` to start the live server.
 
  1. Now get hacking! Change the html, css and js as much as you like. Put some content for each section, add a picture and add any new sections as you see fit.
 
