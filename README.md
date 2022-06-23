@@ -60,3 +60,10 @@ Open VS Code's Command Palette (ctrl+shift+p or ⌘+shift+p).   Type settings.js
 ### Themes
 
 There is a marketplace of themes available which can change the look and feel of VSCode (including light and dark modes).  To try out some themes use either (ctrl+ k ctrl + t) (⌘+k ⌘+t) or File-> Preferences -> Color Theme.
+
+
+Light | Dark
+--- | --- 
+![alt text](Readme_Img/lightmode.jpg) | ![alt text](Readme_Img/darkmode.jpg)
+
+
