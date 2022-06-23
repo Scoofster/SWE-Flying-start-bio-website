@@ -42,7 +42,10 @@ When you're done, commit your code and the push the changes to your fork. Share 
 
 As working in the VSCode development environment will become a substantial part of a developer's day-to-day activities, there are many tools and settings that can increase 'quality of life.'
 
+### Settings
+
 Open VS Code's Command Palette (ctrl+shift+p or ⌘+shift+p).   Type settings.json and select Preferences: Open Settings (JSON)
+
  ![alt text](Readme_Imgs/command.jpg)
 
  This will open up a JSON file with a list of settings for VSCode. (Note that like a list, a comma is required at the end of a setting unless it is the last one)
@@ -50,8 +53,10 @@ Open VS Code's Command Palette (ctrl+shift+p or ⌘+shift+p).   Type settings.js
  Add the following:
  "editor.bracketPairColorization.enabled": true
 
- Look at the these blocks of code.  Can you spot the change?
+ Look at the these blocks of code.  Can you spot the changes?
  
-![alt text](Readme_Imgs/brackets-no-colour.jpg)   ![alt text](Readme_Imgs/brackets-colour.jpg)
+![alt text](Readme_Imgs/brackets-no-colour.jpg)     ![alt text](Readme_Imgs/brackets-colour.jpg)
 
+### Themes
 
+There is a marketplace of themes available which can change the look and feel of VSCode (including light and dark modes).  To try out some themes use either (ctrl+ k ctrl + t) (⌘+k ⌘+t) or File-> Preferences -> Color Theme.
