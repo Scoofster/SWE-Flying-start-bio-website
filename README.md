@@ -18,14 +18,16 @@ We want to get you set up for success. This means getting a few things installed
 ## Getting started
 
  1. With the above installed, **make sure you have and are signed in to a GitHub account**. At the top right of this page, click **Fork** to create a fork. Doing this will give you your very own copy of this repo!
+
  ![alt text](Readme_Imgs/fork-github.gif)
 
  1. When you are on the homepage of your fork, copy the url.     
 
  1. Open VS Code and choose *Clone Git Repository*. Paste in the url to copy the code down to your machine.
+ 
  ![alt text](Readme_Imgs/vscode-clone.gif)
 
- 1. Open a terminal (ctrl + ' will open a terminal screen in vscode), `cd` into your project, and type `npm run start` to start the live server.
+ 1. Open a terminal (ctrl + ' or ⌘ + ' will open a terminal screen in vscode), `cd` into your project, and type `npm run start` to start the live server.
 
  1. Now get hacking! Change the html, css and js as much as you like. Put some content for each section, add a picture and add any new sections as you see fit.
 
@@ -34,3 +36,22 @@ We want to get you set up for success. This means getting a few things installed
 Improve your site as much as you like within the time. You're at the beginning of your journey so we don't expect it to be beautiful or complex. Have fun with the css. Add a bit of interactivity if you know how. Look up css animations if you have time to spare. Anything else you can think of - go for it!
 
 When you're done, commit your code and the push the changes to your fork. Share the url with your coach.
+
+
+##  Other Things
+
+As working in the VSCode development environment will become a substantial part of a developer's day-to-day activities, there are many tools and settings that can increase 'quality of life.'
+
+Open VS Code's Command Palette (ctrl+shift+p or ⌘+shift+p).   Type settings.json and select Preferences: Open Settings (JSON)
+ ![alt text](Readme_Imgs/command.jpg)
+
+ This will open up a JSON file with a list of settings for VSCode. (Note that like a list, a comma is required at the end of a setting unless it is the last one)
+
+ Add the following:
+ "editor.bracketPairColorization.enabled": true
+
+ Look at the these blocks of code.  Can you spot the change?
+ 
+![alt text](Readme_Imgs/brackets-no-colour.jpg)   ![alt text](Readme_Imgs/brackets-colour.jpg)
+
+
