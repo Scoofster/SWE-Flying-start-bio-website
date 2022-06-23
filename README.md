@@ -64,6 +64,6 @@ There is a marketplace of themes available which can change the look and feel of
 
 Light | Dark
 --- | --- 
-![alt text](Readme_Img/lightmode.jpg) | ![alt text](Readme_Img/darkmode.jpg)
+![alt text](Readme_Imgs/lightmode.jpg) | ![alt text](Readme_Imgs/darkmode.jpg)
 
 
