@@ -17,9 +17,9 @@ We want to get you set up for success. This means getting a few things installed
 
 ## Getting started
 
- 1. With the above installed, **make sure you have and are signed in to a GitHub account**. At the top right of this page, click **Fork** to create a fork. Doing this will give you your very own copy of this repo!
+ 1. With the above installed, **make sure you have and are signed in to a GitHub account**. At the top of this repository page, click **Use this template** to create a fork. Doing this will give you your very own copy of this repo!
 
- ![alt text](Readme_Imgs/fork-github.gif)
+ 
 
  1. When you are on the homepage of your fork, copy the url.     
 
