@@ -157,6 +157,31 @@ section
 
 }
 
+.copyright
+{
+    max-height: 50px;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #333333;
+    padding: 0px 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.cr
+{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+    left: 0;
+    margin-bottom: 8px;
+}
+
 .about .title
 {
     position: relative;
@@ -254,6 +279,13 @@ section
 {
     color: crimson;
     background: rgba(220, 20, 60, 0.1);
+}
+
+.bottom
+{
+    padding: 10x 0;
+    text-align: center;
+    color: #fff;
 }
 
 
