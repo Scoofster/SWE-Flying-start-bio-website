@@ -91,11 +91,13 @@
 .home
 {
     display: flex;
-    background: url("images/wallpaper1.jpg") no-repeat center;
+    background: url("images/wallpaper1.jpg") no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-attachment: fixed;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     height: 100vh;
     color: #edf5e1;
     min-width: 390px;
@@ -441,11 +443,13 @@ section .title::after
 
 .services
 {
-    background: url("images/wallpaper2.jpg") no-repeat center;
+    background: url("images/wallpaper2.jpg") no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-attachment: fixed;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #background img {
