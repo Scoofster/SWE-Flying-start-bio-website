@@ -3,8 +3,12 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $(".navbar").addClass("sticky");
-        }else{
+        }else if (this.scrollY > 50){
+            $(".line html").addClass("sticky");
+        }
+        else if (this.scrollY <= 20){
             $(".navbar").removeClass("sticky");
+            $(".line").removeClass("sticky");
         }
     });
 
