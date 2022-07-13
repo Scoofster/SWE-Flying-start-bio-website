@@ -94,10 +94,6 @@
     background: url("images/wallpaper1.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    z-index: -10;
     height: 100vh;
     color: #edf5e1;
     min-width: 500px;
