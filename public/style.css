@@ -444,6 +444,14 @@ section .title::after
     background-attachment: fixed;
 }
 
+#background img {
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+}
+
 
 
 
@@ -581,6 +589,7 @@ section .title::after
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
+        width: 500px;
     }
 
     .about .about-content .right
@@ -622,6 +631,11 @@ section .title::after
     {
         font-size: 20px;
     }
+
+    .about .about-content .left
+    {
+        width: 300px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -633,6 +647,10 @@ section .title::after
     .home .home-content .text-3
     {
         font-size: 37px;
+    }
+    .about .about-content .left
+    {
+        width: 250px;
     }
 }
 
