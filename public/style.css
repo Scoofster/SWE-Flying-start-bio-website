@@ -552,7 +552,6 @@ section .title::after
     {
         top:0;
         padding-top: 20%;
-        -webkit-padding-top: 35%;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
     }
