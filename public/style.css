@@ -665,3 +665,11 @@ section .title::after
     }
 }
 
+@media screen and (max-device-width: 1024px)
+{
+    .home, .services
+    {  
+        background-attachment: fixed;
+    }
+}
+
