@@ -544,6 +544,7 @@ section .title::after
     {
         top:0;
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(2px);
     }
 
     .navbar .menu li
