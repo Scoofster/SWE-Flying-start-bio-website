@@ -226,7 +226,7 @@ section .title::after
     font-size: 20px;
     color: #05386b;
     padding: 5px;
-    background: #fff;
+    background: #edf5e1;
     transform: translateX(-50%);
 }
 
@@ -242,6 +242,11 @@ section .title::after
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.about
+{
+    background: #edf5e1;
 }
 
 .about .about-content .left
