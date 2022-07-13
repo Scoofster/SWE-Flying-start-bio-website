@@ -235,6 +235,11 @@ section .title::after
     content: "an introduction";
 }
 
+.skills
+{
+    background: #edf5e1;
+}
+
 .about .about-content,
 .services .services-content, .skills .skills-content
 {
