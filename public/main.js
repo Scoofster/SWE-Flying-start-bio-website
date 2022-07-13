@@ -41,3 +41,25 @@ $(document).ready(function(){
     typeWriter()
 });
 */
+
+const getMobileOS = () => {
+    const ua = navigator.userAgent
+    if (/android/i.test(ua)) {
+      return "Android"
+    }
+    else if ((/iPad|iPhone|iPod/.test(ua))
+       || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)){
+      return "iOS"
+    }
+    return "Other"
+}
+
+const os = getMobileOS();
+
+function changeBackground(color){
+    document.body.style.home.background = color;
+}
+
+if (os == "iOS"){
+    window.addEventListener("load",function() { changeBackground('red') });
+}
