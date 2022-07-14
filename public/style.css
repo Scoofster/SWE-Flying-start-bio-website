@@ -502,7 +502,7 @@ section .title::after
     width: 5px;
     height: 150px;
     background-color: #05386b;
-    transform: translate(6px, 0);
+    transform: translate(6.25px, -2px);
 }
 
 .education .education__data.bd-grid p
