@@ -512,6 +512,18 @@ section .title::after
     font-size: 14px;
 }
 
+.education .education-content .column
+{
+    width: calc(50% - 30px);
+}
+
+.education .education-content .right .text
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -574,12 +586,32 @@ section .title::after
         height: 350px;
         width: 350px;
     }
+
+    .education__line {
+        height: 200px;
+    }
+    
+    .education .education__data.bd-grid p
+    {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
   }
 
   @media (max-width: 991px){
     .max-width
     {
         padding: 0 50px;
+    }
+
+    .education__line {
+        height: 200px;
+    }
+    
+    .education .education__data.bd-grid p
+    {
+        margin: 0px;
+        margin-bottom: 30px;
     }
   }
 
@@ -674,7 +706,8 @@ section .title::after
     }
 
     .skills .skills-content .column,
-    .services .services-content .card
+    .services .services-content .card,
+    .education .education-content .column
     {
         width: 100%;
         margin-bottom: 25px;
