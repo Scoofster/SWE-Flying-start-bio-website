@@ -15,12 +15,10 @@ $(document).ready(function(){
     $(".menu-btn").click(function(){
         $(".navbar .menu").toggleClass("active");
     });
-    
-    if ($("navbar .menu").classList == "active"){
-        $(".menu").click(function(){
-            $(".navbar .menu").removeClass("active");
-        });
-    }
+
+    $(".menu").click(function(){
+        $(".navbar .menu").toggleClass("active");
+    });
 
 });
 
