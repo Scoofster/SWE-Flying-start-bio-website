@@ -16,6 +16,10 @@ $(document).ready(function(){
         $(".navbar .menu").toggleClass("active");
     });
 
+    $(".menu").click(function(){
+        $(".navbar .menu").removeClass("active");
+    });
+
 });
 
 $(document).ready(function(){
