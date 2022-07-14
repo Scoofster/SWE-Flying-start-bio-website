@@ -157,7 +157,7 @@ section
     padding: 100px 0;
 }
 
-.about, .services, .skills
+.about, .services, .skills, .education
 {
     font-family: "Poppins", sans-serif;
 }
@@ -235,13 +235,21 @@ section .title::after
     content: "an introduction";
 }
 
+.education .title::after
+{
+    content: "my experience";
+    color: #05386b;
+    background-color: #fff;
+}
+
 .skills
 {
     background: #edf5e1;
 }
 
 .about .about-content,
-.services .services-content, .skills .skills-content
+.services .services-content, .skills .skills-content,
+.education .education-content
 {
     display: flex;
     flex-wrap: wrap;
@@ -470,6 +478,48 @@ section .title::after
     position:absolute;
 }
 
+.education__content {
+    display: flex;
+    margin-top: -20.8px;
+}
+
+.education__time {
+    padding-right: 1rem;
+}
+
+.education__rounder {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #062c52;
+    border-radius: 50%;
+    margin-top: 5px; /*This could be a possible bug, meant to be .25rem*/
+}
+
+.education__line {
+    display: block;
+    width: 5px;
+    height: 150px;
+    background-color: #05386b;
+    transform: translate(6px, 0);
+}
+
+.education .education__data.bd-grid p
+{
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -671,5 +721,15 @@ section .title::after
     .about .about-content .left
     {
         width: 250px;
+    }
+
+    .education__line {
+        height: 190px;
+    }
+    
+    .education .education__data.bd-grid p
+    {
+        margin: 0px;
+        margin-bottom: 0px;
     }
 }
