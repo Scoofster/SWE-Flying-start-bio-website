@@ -18,6 +18,7 @@ $(document).ready(function(){
 
     $(".menu").click(function(){
         $(".navbar .menu").toggleClass("active");
+        $(".menu-btn .container").classList.toggleClass("change");
     });
 
 });

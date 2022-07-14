@@ -192,6 +192,19 @@ section
     margin-bottom: 8px;
 }
 
+.copyright p
+{
+    position: absolute;
+    width: 100%;
+    color: #edf5e1;
+    line-height: 30px;
+    font-size: 0.7em;
+    text-align: left;
+    bottom:0;
+    left: 20px;
+    margin-bottom: 8px;
+}
+
 section .title
 {
     position: relative;
@@ -316,30 +329,30 @@ section .title::after
 
 .services
 {
-    color: #883000;
+    color: #111;
     background: #379683;
 }
 
 .services .title
 {
-    color: #edf5e1;
+    color: #fff;
 }
 
 .services .title:before
 {
-    background: #edf5e1;
+    background: #fff;
 }
 
 .services .title:after
 {
-    background: #edf5e1;
+    background: #fff;
     border-radius: 20px;
     content: "what I provide";
 }
 
 #achieve:after
 {
-    background: #edf5e1;
+    background: #fff;
     border-radius: 20px;
     content: "what I've done";
 }
@@ -348,7 +361,7 @@ section .title::after
 {
     width: calc(33% - 20px);
     margin-bottom: 20px;
-    background: #edf5e1;
+    background: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
