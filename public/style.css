@@ -162,7 +162,7 @@ section
     padding: 100px 0;
 }
 
-.about, .services, .skills, .education
+.about, .services, .skills, .education, .teams
 {
     font-family: "Poppins", sans-serif;
 }
@@ -268,7 +268,8 @@ section .title::after
 
 .about .about-content,
 .services .services-content, .skills .skills-content,
-.education .education-content
+.education .education-content,
+.teams .teams-content
 {
     display: flex;
     flex-wrap: wrap;
@@ -328,23 +329,26 @@ section .title::after
     background: rgba(5, 56, 107, 0.1);
 }
 
-.services
+.services, .teams
 {
     color: #111;
     background: #379683;
 }
 
-.services .title
+.services .title,
+.teams .title
 {
     color: #fff;
 }
 
-.services .title:before
+.services .title:before,
+.teams .title:before
 {
     background: #fff;
 }
 
-.services .title:after
+.services .title:after,
+.teams .title:after
 {
     background: #fff;
     border-radius: 20px;
@@ -410,19 +414,22 @@ section .title::after
     content: "what I know"
 }
 
-.skills .skills-content .column 
+.skills .skills-content .column,
+.teams .teams-content .column
 {
     width: calc(50% - 30px);
 }
 
-.skills .skills-content .left .text
+.skills .skills-content .left .text,
+.teams .teams-content .right .text
 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.skills .skills-content .left p
+.skills .skills-content .left p,
+.teams .teams-content .right p
 {
     text-align: justify;
 }
@@ -555,15 +562,100 @@ section .title::after
     width: calc(50% - 30px);
 }
 
-.education .education-content .right .text
+.education .education-content .right .text,
+.teams .right .text
 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
+.teams .title:after
+{
+    content: "multiverse team";
+}
 
+.teams .carousel .card
+{
+    background: #296f61;
+    padding: 15px 35px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+}
 
+.teams .carousel .card img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #05386b;
+    margin-bottom: 10px;
+}
+
+.teams .carousel .card .box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery 
+{
+    top:0;
+    background: #379683;
+}
+  
+.gallery-cell 
+{
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    background: none;
+    counter-increment: gallery-cell;
+}
+
+.teams .teams-content .column
+{
+    width: calc(50% - 20px);
+}
+
+.teams .teams-content .right
+{
+    margin-top: 0px;
+}
+
+.teams
+{
+    color: #fff;
+}
+
+.teams .teams-content .left a
+{
+    color: #fff;
+    background: #05386b;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 0.4s ease;
+}
+
+.teams .teams-content .left a:hover
+{
+    color: #05386b;
+    background: #05386b29;
+    border: 2px solid #05386b;
+}
+
+.teams .teams-content .left .websiteBtn
+{
+    text-align: center;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+}
 
 
 
@@ -624,6 +716,8 @@ section .title::after
         margin-bottom: 0px;
         padding-bottom: 0;
         text-align: left;
+        padding: 0;
+        margin: 0;
         padding-top: 20px;
         font-size: 0.6em;
     }
@@ -672,6 +766,8 @@ section .title::after
         margin-bottom: 0px;
         padding-bottom: 0;
         text-align: left;
+        padding: 0;
+        margin: 0;
         padding-top: 20px;
         font-size: 0.6em;
     }
@@ -726,6 +822,8 @@ section .title::after
         margin-bottom: 0px;
         padding-bottom: 0;
         text-align: left;
+        padding: 0;
+        margin: 0;
         padding-top: 20px;
         font-size: 0.6em;
     }
@@ -742,6 +840,11 @@ section .title::after
         bottom: 0;
         margin-top: 12px;
         padding-right: 100px;
+    }
+
+    .teams .teams-content .right
+    {
+        margin-top: 0px;
     }
   }
 
@@ -831,10 +934,17 @@ section .title::after
 
     .skills .skills-content .column,
     .services .services-content .card,
-    .education .education-content .column
+    .education .education-content .column,
+    .teams .teams-content .column
     {
         width: 100%;
         margin-bottom: 25px;
+        
+    }
+
+    .teams .teams-content .right
+    {
+        margin-top: 50px;
     }
 
     .copyright
@@ -849,6 +959,8 @@ section .title::after
         margin-bottom: 0px;
         padding-bottom: 0;
         text-align: center;
+        padding: 0;
+        margin: 0;
         padding-top: 20px;
         font-size: 0.6em;
     }
@@ -903,6 +1015,8 @@ section .title::after
         margin-bottom: 0px;
         padding-bottom: 0;
         text-align: center;
+        padding: 0;
+        margin: 0;
         padding-top: 20px;
     }
 

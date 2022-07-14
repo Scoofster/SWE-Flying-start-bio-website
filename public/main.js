@@ -21,6 +21,10 @@ $(document).ready(function(){
         $(".menu-btn .container").classList.toggleClass("change");
     });
 
+    $('.carousel').owlCarousel({
+
+    })
+
 });
 
 $(document).ready(function(){
