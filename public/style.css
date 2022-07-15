@@ -1250,7 +1250,7 @@ section .title::after
 
     .contact .contact-content .column .iconcolumn
     {
-        margin-left: 21%;
+        margin-left: 18%;
     }
 }
 
@@ -1291,5 +1291,10 @@ section .title::after
         color: #edf5e1;
         min-width: 390px;
         font-family: "Ubuntu", sans-serif;
+    }
+
+    .contact .contact-content .column .iconcolumn
+    {
+        margin-left: 0;
     }
 }
