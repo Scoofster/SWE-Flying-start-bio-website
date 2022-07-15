@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
     <title>portfolio</title>
 </head>
 
@@ -253,7 +255,7 @@
             <div class="teams-content">
                 <div class="column left">
                     <div class="carousel">
-                        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": 1500, "prevNextButtons": false }'>
                             <div class="gallery-cell">
                                 <div class="card">
                                     <div class="box">
@@ -305,9 +307,93 @@
         </div>
     </section>
 
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>I love the feel of wood curls flying off the lathe as I begin to shape the log in front of me. The sound of scraping changes based on the wetness of the wood, the speed at which the lathe is turning, and the type of cut I am making. The smell and feel of wet wood being turned are unique. The water is sprayed out as I cut through the different layers of wood.</p>
+                    <div class="iconcolumn left">
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Scott Robb</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">scott.robb@prsformusic.com</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">London, United Kingdom, GB</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iconcolumn right">
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="info">
+                                    <div class="head">Phone</div>
+                                    <div class="sub-title">##### ######</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa-brands fa-instagram-square"></i>
+                                <div class="info">
+                                    <div class="head">Instagram</div>
+                                    <div class="sub-title"><a href="">@the_scoofy</a></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div class="info">
+                                    <div class="head">Linkedin</div>
+                                    <div class="sub-title"><a href="">linkedin.com/scoofy</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="text" type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" type="email" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Template for adding new section -->
 
-    <!--<section class="default" id="default">
+    <!--<section class="template" id="template">
         <div class="max-width">
             <h2 class="title">(Input Title Here)</h2>
         </div>
