@@ -10,7 +10,7 @@ $(document).ready(function(){
         if (this.scrollY > 6500 && screen.width > 947){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (this.scrollY > 6700 && screen.width > 500){
+        else if (this.scrollY > 7000 && screen.width > 0){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (this.scrollY > 500){
