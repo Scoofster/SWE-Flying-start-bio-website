@@ -712,7 +712,21 @@ section .title::after
     text-align: left;
 }
 
-.websites .card a,
+.websites .card a
+{
+    color: #fff;
+    background: #05386b;
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: 2px solid #05386b;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -28px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
 .graphics .card a
 {
     color: #fff;
@@ -721,6 +735,8 @@ section .title::after
     border-radius: 6px;
     border: 2px solid #05386b;
     float: right;
+    width: 35px;
+    text-align: center;
     margin-right: 20px;
     margin-top: -28px;
     position: relative;
@@ -732,6 +748,11 @@ section .title::after
 {
     color: #05386b;
     background: #05386b36;
+}
+
+.graphics .card a i
+{
+    font-size: 18px;;
 }
   
 .gallery-cell 
@@ -1482,11 +1503,11 @@ section .title::after
 
     .websites .card
     {
-        height: 240px;
+        height: 220px;
     }
 
     .websites .card
     {
-        height: 240px;
+        height: 240;
     }
 }
