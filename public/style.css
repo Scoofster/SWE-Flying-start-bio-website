@@ -1504,11 +1504,11 @@ section .title::after
 
     .websites .card
     {
-        height: 230px;
+        height: 240px;
     }
 
-    .websites .card
+    .graphics .card
     {
-        height: 240;
+        height: 260;
     }
 }
