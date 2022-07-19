@@ -655,7 +655,6 @@ section .title::after
     float: left;
     margin-right: 5px;
     margin-left: 5px;
-    width: calc(33% - 8px);
 }
 
 .teams .carousel .card img
