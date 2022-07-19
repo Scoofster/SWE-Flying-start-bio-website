@@ -19,7 +19,7 @@ $(document).ready(function(){
         else if (window.outerWidth > 400 && this.scrollY > 7050){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 0 && this.scrollY > 7600){
+        else if (window.outerWidth > 0 && this.scrollY > 8500){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (this.scrollY > 500){
