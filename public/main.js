@@ -7,7 +7,10 @@ $(document).ready(function(){
             $(".navbar").removeClass("sticky");
             $(".line").removeClass("sticky");
         }
-        if (this.scrollY > 6500){
+        if (this.scrollY > 6500 && screen.width > 947){
+            $(".scroll-down-btn").removeClass("show");
+        }
+        else if (this.scrollY > 7500 && screen.width > 500){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (this.scrollY > 500){
