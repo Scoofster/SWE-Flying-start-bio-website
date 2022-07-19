@@ -1509,6 +1509,6 @@ section .title::after
 
     .graphics .card
     {
-        height: 260;
+        height: 225px;
     }
 }
