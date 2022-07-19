@@ -196,6 +196,7 @@ html
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #05386b;
+    position: relative;
     transition: all 0.4s ease;
 }
 
@@ -210,7 +211,7 @@ section
     padding: 100px 0;
 }
 
-.about, .services, .skills, .education, .teams, .contact
+.about, .services, .skills, .education, .teams, .contact, .websites, .graphics
 {
     font-family: "Poppins", sans-serif;
 }
@@ -629,12 +630,32 @@ section .title::after
     content: "multiverse team";
 }
 
+.projects .title::after
+{
+    content: "what i've done";
+    background: #fff;
+}
+
 .teams .carousel .card
 {
     background: #296f61;
     padding: 15px 35px;
     padding-bottom: 50px;
     border-radius: 25px;
+}
+
+.websites .carousel .card,
+.graphics .carousel .card
+{
+    background: #777;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    max-width: 350px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: calc(33% - 8px);
 }
 
 .teams .carousel .card img
@@ -647,7 +668,20 @@ section .title::after
     margin-bottom: 10px;
 }
 
-.teams .carousel .card .box
+.websites .carousel .card img,
+.graphics .carousel .card img
+{
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+}
+
+.teams .carousel .card .box,
+.websites .carousel .card .box,
+.graphics .carousel .card .box
 {
     display: flex;
     flex-direction: column;
@@ -655,10 +689,50 @@ section .title::after
     justify-content: center;
 }
 
-.gallery 
+.teams .gallery 
 {
     top:0;
     background: #379683;
+}
+
+.websites .gallery,
+.graphics .gallery
+{
+    top:0;
+    background: #fff;
+    align-items: center;
+}
+
+.websites .card .websiteText,
+.graphics .card .graphicsText
+{
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.websites .card a,
+.graphics .card a
+{
+    color: #fff;
+    background: #05386b;
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: 2px solid #05386b;
+    float: right;
+    margin-right: 20px;
+    margin-top: -28px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.websites .card a:hover,
+.graphics .card a:hover
+{
+    color: #05386b;
+    background: #05386b36;
 }
   
 .gallery-cell 
@@ -672,7 +746,7 @@ section .title::after
 
 .teams .teams-content .column
 {
-    width: calc(50% - 20px);
+    width: calc(50% - 30px);
 }
 
 .teams .teams-content .right
@@ -859,6 +933,28 @@ section .title::after
     float: left;
     margin-right: calc(25% + 55px)
 }
+
+.websites
+{
+    margin-top: -200px;
+}
+
+.graphics{
+    margin-top: -130px;;
+}
+
+.w2 {
+    width: 100%; 
+    text-align: left; 
+    border-bottom: 3px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .w2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
 
 
 
@@ -1241,6 +1337,30 @@ section .title::after
         left:0;
         margin-top: 26px;
     }
+
+    .websites .card a
+    {
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .websites .card
+    {
+        height: 300px;
+    }
+
+    .graphics .card a
+    {
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .graphics .card
+    {
+        height: 300px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1306,7 +1426,15 @@ section .title::after
         margin-left: 18%;
     }
 
-    
+    .websites .card
+    {
+        height: 260px;
+    }
+
+    .graphics .card
+    {
+        height: 260px;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -1351,5 +1479,15 @@ section .title::after
     .contact .contact-content .column .iconcolumn
     {
         margin-left: 0;
+    }
+
+    .websites .card
+    {
+        height: 240px;
+    }
+
+    .websites .card
+    {
+        height: 240px;
     }
 }

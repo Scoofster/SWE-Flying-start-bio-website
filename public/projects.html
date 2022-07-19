@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/53b21b8e07.js"></script>
+    <script src="https://kit.fontawesome.com/01397d6fe8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="typed.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+    <title>portfolio</title>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">My <span>portfolio</span>.</a></div>
+            <ul class="menu">
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">Graphics</a></li>
+                <li><a href="#">JavaScript Projects</a></li>
+                <li><a href="#">Other</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class ="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+        </div>
+    </section>
+
+    <section class="websites" id="websites">
+        <div class="max-width">
+            <h3 class="w2"><span>Websites</span></h3>
+            <div class="carousel">
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": false, "autoPlay": 3000, "prevNextButtons": true }'>
+                    <div class="gallery-cell">
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="websiteText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="graphics" id="graphics">
+        <div class="max-width">
+            <h3 class="w2"><span>Graphics</span></h3>
+            <div class="carousel">
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": false, "autoPlay": 3000, "prevNextButtons": true }'>
+                    <div class="gallery-cell">
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell">
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="images/wallpaper1.jpg" alt="">
+                            </div>
+                            <div class="column left">
+                                <div class="graphicsText">This is the first site I made.</div>
+                            </div>
+                            <div class="column right">
+                                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Template for adding new section -->
+
+    <!--<section class="template" id="template">
+        <div class="max-width">
+            <h2 class="title">(Input Title Here)</h2>
+        </div>
+    </section>-->
+
+    <!---------------------------------->
+
+    <section class="copyright" id="copyright">
+        <div class="max-width">
+            <p>*all material used (inclu. code and images) were dveloped and obtained under fair-use.</p>
+            <div class="bottom"><h3 class="cr">Copyright © 2022. Scott Robb. All rights reserved.</h3></div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

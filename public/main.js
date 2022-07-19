@@ -5,7 +5,6 @@ $(document).ready(function(){
             $(".navbar").addClass("sticky");
         }else{
             $(".navbar").removeClass("sticky");
-            $(".line").removeClass("sticky");
         }
         if (window.outerWidth > 1000 && this.scrollY > 4350){
             $(".scroll-down-btn").removeClass("show");
@@ -34,6 +33,10 @@ $(document).ready(function(){
 
     $(".scroll-up-btn").click(function(){
         $("html").animate({scrollTop: 0});
+    });
+
+    $(".services .services-content .card").click(function(){
+        window.open("projects.html", "_self");
     });
 
     $(".scroll-down-btn").click(function(){
