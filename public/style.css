@@ -324,6 +324,11 @@ section .title::after
     transition: all 0.4s ease;
 }
 
+.about .about-content .right i
+{
+    font-size: 25.7px;
+}
+
 .about .about-content .right a:hover
 {
     color: #05386b;
@@ -1252,6 +1257,8 @@ section .title::after
     {
         margin-left: 18%;
     }
+
+    
 }
 
 @media only screen and (max-width: 450px){
