@@ -7,7 +7,16 @@ $(document).ready(function(){
             $(".navbar").removeClass("sticky");
             $(".line").removeClass("sticky");
         }
-        if (window.outerWidth > 550 && this.scrollY > 4300){
+        if (window.outerWidth > 1000 && this.scrollY > 4350){
+            $(".scroll-down-btn").removeClass("show");
+        }
+        else if (window.outerWidth > 800 && this.scrollY > 6500){
+            $(".scroll-down-btn").removeClass("show");
+        }
+        else if (window.outerWidth > 600 && this.scrollY > 6900){
+            $(".scroll-down-btn").removeClass("show");
+        }
+        else if (window.outerWidth > 400 && this.scrollY > 7050){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (window.outerWidth > 0 && this.scrollY > 7050){
