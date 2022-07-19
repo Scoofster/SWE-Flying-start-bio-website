@@ -7,10 +7,10 @@ $(document).ready(function(){
             $(".navbar").removeClass("sticky");
             $(".line").removeClass("sticky");
         }
-        if (this.scrollY > 7000 && screen.width < 947){
+        if (window.outerWidth > 550 && this.scrollY > 4300){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (this.scrollY > 6500 && screen.width > 0){
+        else if (window.outerWidth > 0 && this.scrollY > 7050){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (this.scrollY > 500){
