@@ -1427,12 +1427,12 @@ section .title::after
 
     .websites .card
     {
-        height: 260px;
+        height: 250px;
     }
 
     .graphics .card
     {
-        height: 260px;
+        height: 225px;
     }
 }
 
