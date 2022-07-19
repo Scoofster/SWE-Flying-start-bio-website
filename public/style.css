@@ -13,6 +13,11 @@ html
     scroll-behavior: smooth;
 }
 
+.projects
+{
+    background-image: linear-gradient(rgb(192, 192, 255), #fff, #fff);
+}
+
 .max-width
 {
     max-width: 1300px;
@@ -634,6 +639,7 @@ section .title::after
 {
     content: "what i've done";
     background: #fff;
+    border-radius: 25px;
 }
 
 .teams .carousel .card
