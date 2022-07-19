@@ -9,13 +9,19 @@ $(document).ready(function(){
         }
         if (this.scrollY > 500){
             $(".scroll-up-btn").addClass("show");
+            $(".scroll-down-btn").addClass("show");
         }else{
             $(".scroll-up-btn").removeClass("show");
+            $(".scroll-down-btn").removeClass("show");
         }
     });
 
     $(".scroll-up-btn").click(function(){
         $("html").animate({scrollTop: 0});
+    });
+
+    $(".scroll-down-btn").click(function(){
+        $("html").animate({scrollTop: $("#contact").offset().top}, 1000);
     });
 
     $(".menu-btn").click(function(){
