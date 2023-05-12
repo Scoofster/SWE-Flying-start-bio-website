@@ -1,5 +1,16 @@
 //
 $(document).ready(function(){
+
+    var e1 = document.getElementById("e1").innerHTML;
+    var e2 = document.getElementById("e2").innerHTML;
+
+    if (window.outerWidth > 800){
+
+    } else {
+        e1.split(',');
+        e1 = e1[1];
+    }
+
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $(".navbar").addClass("sticky");
