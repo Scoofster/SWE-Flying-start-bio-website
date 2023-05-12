@@ -66,10 +66,16 @@ $(document).ready(function(){
 
     } else {
         let words = e1.split(" , ");
-        document.getElementById("e1").innerHTML = words[0] + "\r\n" + words[1];
-
         let words2 = e2.split(" , ");
-        document.getElementById("e2").innerHTML = words2[0] + "<br>" + words2[1];
+
+        let i = 0;
+        while (i < words.length){
+            document.getElementById("e1").innerHTML += words[i] + "<br>";
+            i++;
+        }
+        while (i < words2.length){
+            document.getElementById("e2").innerHTML += words2[-] + "<br>";
+        }
     }
 
     var t = 0;
