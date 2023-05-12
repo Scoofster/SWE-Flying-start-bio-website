@@ -59,6 +59,20 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    listEducation();
+
+    var t = 0;
+    $(window).scroll(function(){
+        if(this.scrollY > 600){
+            t++;
+            if (t == 1){
+                typeWriter();
+            }
+        }
+    });
+});
+
+function listEducation(){
     var e1 = document.getElementById("e1").innerHTML;
     var e2 = document.getElementById("e2").innerHTML;
 
@@ -82,17 +96,7 @@ $(document).ready(function(){
             i++;
         }
     }
-
-    var t = 0;
-    $(window).scroll(function(){
-        if(this.scrollY > 600){
-            t++;
-            if (t == 1){
-                typeWriter();
-            }
-        }
-    });
-});
+}
 
 function myFunction(x) {x.classList.toggle("change");}
 
