@@ -130,6 +130,22 @@ function typeWriter2(){
     }
 }
 
+var i3 = 0;
+var txt3 = 'driven.';
+const speed3 = 200;
+
+function typeWriter3(){
+    if (i3 < txt3.length) {
+        document.getElementById("typing-2").innerHTML += txt3.charAt(i3);
+        i3++;
+        setTimeout(typeWriter3, speed3);
+    } else {
+        i3 = 0;
+        document.getElementById("typing-2").innerHTML = "";
+        setTimeout(typeWriter3, (speed3*2));
+    }
+}
+
 /*
 $(document).ready(function(){
     typeWriter()
