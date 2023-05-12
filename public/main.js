@@ -9,16 +9,16 @@ $(document).ready(function(){
         if (window.outerWidth > 1000 && this.scrollY > 2700){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 800 && this.scrollY > 3500){
+        else if (window.outerWidth > 800 && this.scrollY > 4000){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 600 && this.scrollY > 6900){
+        else if (window.outerWidth > 600 && this.scrollY > 4400){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 400 && this.scrollY > 7050){
+        else if (window.outerWidth > 400 && this.scrollY > 4600){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 0 && this.scrollY > 7050){
+        else if (window.outerWidth > 0 && this.scrollY > 5000){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (this.scrollY > 500){
