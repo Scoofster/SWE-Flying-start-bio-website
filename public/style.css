@@ -441,6 +441,7 @@ section .title::after
 .services .services-content.card
 {
     color: black;
+    transition: none;
 }
 
 .services .services-content .card:hover
