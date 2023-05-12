@@ -6,7 +6,7 @@ $(document).ready(function(){
         }else{
             $(".navbar").removeClass("sticky");
         }
-        if (window.outerWidth > 1000 && this.scrollY > 4350){
+        if (window.outerWidth > 1000 && this.scrollY > 2700){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (window.outerWidth > 800 && this.scrollY > 6500){
