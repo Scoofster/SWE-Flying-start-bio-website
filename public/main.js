@@ -59,8 +59,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    var e1 = document.getElementById("e1").innerHTML;
-    var e2 = document.getElementById("e2").innerHTML;
+    var e1 = document.getElementById("e1").innerHTML; e1 = "";
+    var e2 = document.getElementById("e2").innerHTML; e2 = "";
 
     if (window.outerWidth > 800){
 
@@ -74,7 +74,8 @@ $(document).ready(function(){
             i++;
         }
         while (i < words2.length){
-            document.getElementById("e2").innerHTML += words2[-] + "<br>";
+            document.getElementById("e2").innerHTML += words2[i] + "<br>";
+            i++;
         }
     }
 
