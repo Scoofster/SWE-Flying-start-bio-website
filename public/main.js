@@ -9,7 +9,7 @@ $(document).ready(function(){
         if (window.outerWidth > 1000 && this.scrollY > 2700){
             $(".scroll-down-btn").removeClass("show");
         }
-        else if (window.outerWidth > 800 && this.scrollY > 6500){
+        else if (window.outerWidth > 800 && this.scrollY > 3500){
             $(".scroll-down-btn").removeClass("show");
         }
         else if (window.outerWidth > 600 && this.scrollY > 6900){
