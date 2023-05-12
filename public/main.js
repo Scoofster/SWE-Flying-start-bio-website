@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     } else {
         e1.split(',');
-        e1 = e1[1];
+        e1 = e1(1);
     }
 
     $(window).scroll(function(){
