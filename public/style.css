@@ -436,6 +436,15 @@ section .title::after
 .services .services-content .card:hover
 {
     background: #05386b;
+}
+
+.services .services-content.card
+{
+    color: black;
+}
+
+.services .services-content .card:hover
+{
     color: #edf5e1;
 }
 
