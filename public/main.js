@@ -60,6 +60,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     typeWriter2();
+    typeWriter3();
 
     listEducation();
 
