@@ -65,8 +65,8 @@ $(document).ready(function(){
     if (window.outerWidth > 800){
 
     } else {
-        e1.split(" , ");
-        document.getElementById("e1").innerHTML = e1[0];
+        let words = e1.split(" , ");
+        document.getElementById("e1").innerHTML = words[0];
     }
 
     var t = 0;
