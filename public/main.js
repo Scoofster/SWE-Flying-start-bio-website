@@ -73,11 +73,13 @@ var txt = 'I am a hardworking and ambitious individual with a great passion for 
 const speed = 200;
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typingAboutPara").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+    if (i == 0){
+        while (i < txt.length) {
+            document.getElementById("typingAboutPara").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
 }
 
 /*
