@@ -74,7 +74,7 @@ function myFunction(x) {x.classList.toggle("change");}
 
 var i = 0;
 var txt = 'I am a hardworking and ambitious individual with a great passion for the graphic design and computing industry that strives for excellency. I have exemplary communication skills, enabling me to effectively communicate with a wide range of people. Through my previous education and experience as a Junior Software Developer, I am confident in my strong foundation and proficiency in programming languages such as C#, JavaScript, React, HTML and CSS. I am looking for a position in the industry in which I can put into practice my knowledge and experience while gaining invaluable experience, ultimately benefiting the operations of the organisation that I work for. I have acquired several hard skills that are essential for this field from this passion, such as programming, graphical design, computing and IT skills. Additionally, I have many hobbies which keep me active and passionate, such as bouldering, drawing and programming.';
-const speed = 200;
+const speed = 20;
 
 function typeWriter() {
   if (i < txt.length) {
