@@ -120,12 +120,13 @@ const speed2 = 200;
 
 function typeWriter2(){
     if (i2 < txt2.length) {
-        document.getElementById("typing").innerHTML += txt2.charAt(i);
+        document.getElementById("typing").innerHTML += txt2.charAt(i2);
         i2++;
         setTimeout(typeWriter2, speed2);
     } else {
         i2 = 0;
         document.getElementById("typing").innerHTML = "";
+        typeWriter2();
     }
 }
 
