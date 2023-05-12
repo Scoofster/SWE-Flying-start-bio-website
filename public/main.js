@@ -59,9 +59,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    var t = 0;
     $(window).scroll(function(){
         if(this.scrollY > 600){
-            typeWriter()
+            t++;
+            if (t == 1){
+                typeWriter();
+            }
         }
     });
 });
@@ -73,13 +77,11 @@ var txt = 'I am a hardworking and ambitious individual with a great passion for 
 const speed = 200;
 
 function typeWriter() {
-    if (i == 0){
-        while (i < txt.length) {
-            document.getElementById("typingAboutPara").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-    }
+  if (i < txt.length) {
+    document.getElementById("typingAboutPara").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
 
 /*
