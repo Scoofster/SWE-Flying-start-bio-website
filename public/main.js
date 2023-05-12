@@ -59,14 +59,17 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    var e1 = document.getElementById("e1").innerHTML; e1 = "";
-    var e2 = document.getElementById("e2").innerHTML; e2 = "";
+    var e1 = document.getElementById("e1").innerHTML;
+    var e2 = document.getElementById("e2").innerHTML;
 
     if (window.outerWidth > 800){
 
     } else {
         let words = e1.split(" , ");
         let words2 = e2.split(" , ");
+
+        document.getElementById("e1").innerHTML = "";
+        document.getElementById("e2").innerHTML = "";
 
         let i = 0;
         while (i < words.length){
