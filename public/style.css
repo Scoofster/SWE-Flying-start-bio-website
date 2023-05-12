@@ -832,14 +832,14 @@ section .title::after
     margin-top: 18px;
 }
 
+.contact {
+    background-color: #edf5e1;
+}
+
 .contact .title::after
 {
     content: "reach me";
-    background: #fff;
-}
-
-.contact {
-    background-color: blue;
+    background: #edf5e1;
 }
 
 .contact .contact-content .column
