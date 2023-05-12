@@ -126,7 +126,7 @@ function typeWriter2(){
     } else {
         i2 = 0;
         document.getElementById("typing").innerHTML = "";
-        typeWriter2();
+        setTimeout(typeWriter2, (speed2*2));
     }
 }
 
