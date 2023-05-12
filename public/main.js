@@ -67,6 +67,7 @@ $(document).ready(function(){
     } else {
         e1.split(" , ");
         e1 = e1[0];
+        document.getElementById("e1").innerHTML = e1;
     }
 
     var t = 0;
