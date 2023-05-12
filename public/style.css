@@ -438,7 +438,7 @@ section .title::after
     background: #05386b;
 }
 
-.services .services-content.card
+.services .services-content .card
 {
     color: black;
     transition: none;
