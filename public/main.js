@@ -76,6 +76,7 @@ $(document).ready(function(){
             document.getElementById("e1").innerHTML += words[i] + "<br>";
             i++;
         }
+        i = 0;
         while (i < words2.length){
             document.getElementById("e2").innerHTML += words2[i] + "<br>";
             i++;
