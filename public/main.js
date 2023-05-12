@@ -112,6 +112,21 @@ function typeWriter() {
   }
 }
 
+var i2 = 0;
+var txt2 = 'Developer';
+const speed2 = 200;
+
+function typeWriter2(){
+    if (i2 < txt2.length) {
+        document.getElementById("typing").innerHTML += txt2.charAt(i);
+        i2++;
+        setTimeout(typeWriter2, speed2);
+    } else {
+        i2 = 0;
+        document.getElementById("typing").innerHTML = "";
+    }
+}
+
 /*
 $(document).ready(function(){
     typeWriter()
