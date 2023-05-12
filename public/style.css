@@ -838,6 +838,10 @@ section .title::after
     background: #fff;
 }
 
+.contact {
+    background-color: blue;
+}
+
 .contact .contact-content .column
 {
     width: calc(50% - 30px);
