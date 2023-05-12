@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     } else {
         let words = e1.split(" , ");
-        document.getElementById("e1").innerHTML = words[0];
+        document.getElementById("e1").innerHTML = words[0]<br>words[1];
     }
 
     var t = 0;
