@@ -35,9 +35,9 @@ $(document).ready(function(){
         $("html").animate({scrollTop: 0});
     });
 
-    $(".services .services-content .card").click(function(){
-        window.open("projects.html", "_self");
-    });
+    // $(".services .services-content .card").click(function(){
+    //     window.open("projects.html", "_self");
+    // });
 
     $(".scroll-down-btn").click(function(){
         $("html").animate({scrollTop: $("#contact").offset().top}, 1000);
