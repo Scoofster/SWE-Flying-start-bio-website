@@ -59,6 +59,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    typeWriter2();
+
     listEducation();
 
     var t = 0;
